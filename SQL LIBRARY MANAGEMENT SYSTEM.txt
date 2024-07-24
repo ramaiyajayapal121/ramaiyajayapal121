@@ -1,0 +1,7 @@
+create table client details(
+client_name varchar(87) not null,
+company_name varchar(89) not null,
+department_id refrence department(dept_id) not null,
+prefered contact method varchar(200),not null,
+streat address varchar(189),not null,
+addres link 2 not null,
